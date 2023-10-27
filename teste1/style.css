@@ -126,6 +126,7 @@ section > img {
 
     main {
         box-shadow: none;
+        max-height: 1300px;
         height: 1300px;
     }
 
