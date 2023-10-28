@@ -115,7 +115,7 @@ section > img {
     left: 70%;
 }
 
-/* para celular */ 
+/* até 750px */ 
 
 @media screen and (max-width: 750px) {
 
@@ -158,4 +158,13 @@ section > img {
         transform: translate(-50%);
     }
 
+}
+
+
+/* 500px para baixo */ 
+
+@media screen and (max-width: 500px) {
+    section {
+        width: 26vw;
+    }
 }
