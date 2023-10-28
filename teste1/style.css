@@ -118,17 +118,15 @@ section > img {
 
 /* para celular */ 
 
-@media screen and (max-width: 750px) and (orientation: landscape) {
+@media screen and (max-width: 750px) {
 
     body {
         height: 100vh;
-        width: 100vw;
     }
 
     main {
         box-shadow: none;
         max-height: 1300px;
-        max-width: 98vh;
         height: 1300px;
     }
 
