@@ -130,6 +130,10 @@ section > img {
         height: 1300px;
     }
 
+    section {
+        width: 26vw;
+    }
+
     #tbuilder {
         width: 40vw;
     }
