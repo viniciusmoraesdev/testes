@@ -14,8 +14,7 @@ html, body {
 main {
     background-color: white;
     position: relative;
-    max-width: 90vw;
-    height: 700px;
+    padding-bottom: 450px;
     width: 90vw;
     margin: 2% 0% 0% 4%;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.349);
@@ -45,6 +44,7 @@ header > .hpara {
 }
 
 section {
+    display: inline-block;
     box-shadow: -5px 5px 12px rgba(0, 0, 0, 0.349);
     padding: 15px;
     width: 22vw;
@@ -104,7 +104,7 @@ section > p {
 #tkarma {
     position: absolute;
     left: 50%;
-    top: 62%;
+    top: 63%;
     transform: translate(-50%);
 
 }
