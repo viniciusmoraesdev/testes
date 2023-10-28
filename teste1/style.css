@@ -159,15 +159,3 @@ section > img {
     }
 
 }
-
-
-/* 500px para baixo */ 
-
-@media screen and (max-width: 400px) {
-    section > img {
-        position: absolute;
-        top: 50%;
-        left: 40%;
-    }
-    
-}
