@@ -165,6 +165,10 @@ section > img {
 
 @media screen and (max-width: 500px) {
     section {
-        width: 40vw;
+        width: 30vw;
+    }
+
+    section > img {
+        position: fixed;
     }
 }
