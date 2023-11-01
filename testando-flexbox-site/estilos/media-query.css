@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+/*
+menu mobile 465p
+*/
+@media screen and (max-width: 465px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    header > nav > ul > li {
+        padding-top: 10px;
+    }
+}
 
 /*
 768p to 992p 
