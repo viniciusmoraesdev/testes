@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/*
+Mobile
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+}
+
+header {
+    color: white;
+    background-color: rgb(1, 9, 56);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+header > h1 {
+    text-indent: 20px;
+
+    background: -webkit-linear-gradient(left, rgb(75, 147, 168), rgb(207, 185, 185));
+    background: linear-gradient(to right, rgb(75, 147, 168), rgb(207, 185, 185));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header > nav > ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 11px;
+}
+
+header > nav > ul > li {
+    padding-left: 20px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+}
+
+header > nav > ul > li > a:hover {
+    display: block;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+
+    transition: .8s;
+}
+
+/*--------------------------------------------------*/
+
+main {
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 50px;
+}
+
+div#img {
+    background-size: cover;
+    height: 250px;
+}
+
+div.img1 {
+    background-image: url(../imagens/notice1.jpg);
+    background-position: center center;
+}
+
+div.img2 {
+    background-image: url(../imagens/notice2.jpg);
+    background-position: center center;
+}
+
+div.img3 {
+    background-image: url(../imagens/notice3.jpg);
+    background-position: center center;
+}
+
+div.img4 {
+    background-image: url(../imagens/notice4.jpg);
+    background-position: center center;
+}
+
+div.img5 {
+    background-image: url(../imagens/notice5.jpg);
+}
+
+div.img6 {
+    background-image: url(../imagens/notice6.jpg);
+    background-position: center center;
+}
+
+div.img7 {
+    background-image: url(../imagens/notice7.jpg);
+}
+
+div.img8 {
+    background-image: url(../imagens/notice8.jpg);
+    background-position: center center;
+}
+
+div.img9 {
+    background-image: url(../imagens/notice9.jpg);
+}
+
+article.noticia {
+    box-shadow: 0px 0px 1px black;
+    width: 90%;
+    height: 450px;
+    text-indent: 5px;
+}
+
+article.noticia > h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+article.noticia > h1 > a:hover {
+    text-decoration: underline;
+}
+
+article.noticia > h1, p {
+    margin: 10px 10px 0px 10px
+}
+
+/*
+------------------------footer----------------
+*/
+
+footer {
+    margin-top: 30px;
+}
+
+footer > p {
+    margin: auto;
+    background-color: rgb(1, 9, 56);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    padding: 3px 5px 3px 5px;
+
+    transition: .6s;
+    border-radius: 7px;
+}
