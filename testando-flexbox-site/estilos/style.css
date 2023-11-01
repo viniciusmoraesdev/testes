@@ -131,6 +131,7 @@ article.noticia {
     box-shadow: 0px 0px 1px black;
     width: 90%;
     text-indent: 5px;
+    margin: auto;
 }
 
 article.noticia > h1 > a {
