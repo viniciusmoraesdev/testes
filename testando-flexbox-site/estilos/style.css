@@ -82,36 +82,33 @@ main {
 
 div#img {
     background-size: cover;
+    background-position: center center;
     height: 250px;
 }
 
 div.img1 {
     background-image: url(../imagens/notice1.jpg);
-    background-position: center center;
 }
 
 div.img2 {
     background-image: url(../imagens/notice2.jpg);
-    background-position: center center;
 }
 
 div.img3 {
     background-image: url(../imagens/notice3.jpg);
-    background-position: center center;
 }
 
 div.img4 {
     background-image: url(../imagens/notice4.jpg);
-    background-position: center center;
 }
 
 div.img5 {
     background-image: url(../imagens/notice5.jpg);
+
 }
 
 div.img6 {
     background-image: url(../imagens/notice6.jpg);
-    background-position: center center;
 }
 
 div.img7 {
@@ -120,7 +117,6 @@ div.img7 {
 
 div.img8 {
     background-image: url(../imagens/notice8.jpg);
-    background-position: center center;
 }
 
 div.img9 {
