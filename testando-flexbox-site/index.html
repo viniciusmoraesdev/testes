@@ -16,6 +16,8 @@
         <h1>
             The Journey
         </h1>
+
+        <div id="icon-mobile" onclick="clickMenu()"></div>
         
         <nav>
             <ul>
@@ -25,6 +27,16 @@
             </ul>
         </nav>
     </header>
+    <!--Menu Mobile-->
+    <div id="menu-mobile">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre nós</a></li>
+        </ul>
+        <div onclick="closeMenu()" id="iclose"></div>
+    </div>
+
     <main>
         <article class="noticia">
             <div id="img" class="img1">
@@ -142,5 +154,7 @@
             Site criado por <a href="https://github.com/viniciusmoraesdev" target="_blank">Vinicius Moraes</a>
         </p>
     </footer>
+
+    <script src="javascript.js"></script>
 </body>
 </html>
