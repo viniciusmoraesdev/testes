@@ -121,7 +121,6 @@ menu mobile 465p
     
     header > nav {
         width: 60%;
-    
         display: flex;
         justify-content: flex-end;
     }
