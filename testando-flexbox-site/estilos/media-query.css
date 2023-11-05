@@ -16,6 +16,7 @@ menu mobile 465p
     height: 30px;
     cursor: pointer;
     margin-top: 10px;
+    margin-right: 10px;
     }
 
     #icon-mobile {
@@ -32,13 +33,14 @@ menu mobile 465p
         border-bottom-right-radius: 10px;
         margin-top: 0px;
         display: none;
-        justify-content: space-around;
+        justify-content: space-between;
         box-shadow: 0px 0px 9px black;
         padding-bottom: 10px;
     }
 
     #menu-mobile > ul{  
         list-style: none;
+        padding-left: 10px;
     }
 
     #menu-mobile > ul > li{
@@ -74,6 +76,7 @@ menu mobile 465p
         height: 30px;
         cursor: pointer;
         margin-top: 10px;
+        margin-right: 10px;
         }
 
     #menu-mobile {
@@ -82,13 +85,14 @@ menu mobile 465p
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: none;
-        justify-content: space-around;
+        justify-content: space-between;
         box-shadow: 0px 0px 9px black;
         padding-bottom: 10px;
     }
 
     #menu-mobile > ul{  
         list-style: none;
+        padding-left: 10px;
     }
 
     #menu-mobile > ul > li{
@@ -147,6 +151,7 @@ menu mobile 465p
         height: 30px;
         cursor: pointer;
         margin-top: 10px;
+        margin-right: 10px;
         }
 
     #menu-mobile {
@@ -155,13 +160,14 @@ menu mobile 465p
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: none;
-        justify-content: space-around;
+        justify-content: space-between;
         box-shadow: 0px 0px 9px black;
         padding-bottom: 10px;
     }
 
     #menu-mobile > ul{  
         list-style: none;
+        padding-left: 10px;
     }
 
     #menu-mobile > ul > li{

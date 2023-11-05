@@ -183,13 +183,14 @@ footer > p > a:hover {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: none;
-    justify-content: space-around;
+    justify-content: space-between;
     box-shadow: 0px 0px 9px black;
     padding-bottom: 10px;
 }
 
 #menu-mobile > ul{  
     list-style: none;
+    padding-left: 10px;
 }
 
 #menu-mobile > ul > li{
@@ -215,4 +216,5 @@ footer > p > a:hover {
     height: 30px;
     cursor: pointer;
     margin-top: 10px;
+    margin-right: 10px;
     }
